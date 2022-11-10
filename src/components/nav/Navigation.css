@@ -1,0 +1,31 @@
+.nav {
+  width: 100%;
+  background-color: #3b4c5c;
+  padding: 20px;
+}
+
+.nav ul {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  font-family: "Open Sans", sans-serif;
+  align-items: center;
+}
+
+.mainnav {
+  align-items: center;
+}
+
+.nav ul li {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  padding: 0.7em 0;
+  margin: auto;
+  font-size: 1.5rem;
+}
+
+.nav ul li a {
+  color: #f3f4f5;
+  text-decoration: none;
+}
