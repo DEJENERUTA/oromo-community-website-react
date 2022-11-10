@@ -4,10 +4,10 @@ import "./Navigation.css";
 
 const Navigation = () => {
   return (
-    <div className="site-header">
+    <div className="siteheader">
       <div className="nav">
         <ul>
-          <li className="main-nav">
+          <li className="mainnav">
             <Link to="/">Home</Link>
           </li>
           <li>
