@@ -3,8 +3,7 @@
   background-color: #3b4c5c;
   padding: 20px;
 }
-.nav,
-ul {
+.nav ul {
   width: 100%;
   display: flex;
   justify-content: space-evenly;
@@ -14,9 +13,7 @@ ul {
 .main-nav {
   align-items: center;
 }
-.nav,
-ul,
-li {
+.nav ul li {
   display: flex;
   align-items: center;
   text-decoration: none;
@@ -24,10 +21,7 @@ li {
   margin: auto;
   font-size: 1.5rem;
 }
-.nav,
-ul,
-li,
-a {
+.nav ul li a {
   color: #f3f4f5;
   text-decoration: none;
 }
