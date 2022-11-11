@@ -1,0 +1,10 @@
+.socialmedia {
+  display: flex;
+  gap: 1rem;
+  font-size: 1.5rem;
+}
+
+.socialmedia a {
+  color: #f3f4f5;
+  text-decoration: none;
+}
