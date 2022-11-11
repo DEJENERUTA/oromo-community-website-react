@@ -1,11 +1,16 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./Navigation.css";
+import Logo from "../logo/Logo";
+import Social from "../socials/Social";
 
-const Navigation = () => {
+const Navigation = (Img) => {
   return (
     <div className="siteheader">
       <div className="nav">
+        <div className="nav__logo">
+          <Logo />
+        </div>
         <ul>
           <li className="mainnav">
             <Link to="/">Home</Link>
@@ -26,6 +31,9 @@ const Navigation = () => {
             <Link to="/children">Children</Link>
           </li>
         </ul>
+        <div className="nav__social">
+          <Social />
+        </div>
       </div>
     </div>
   );

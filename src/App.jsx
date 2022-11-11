@@ -7,6 +7,7 @@ import Membership from "./pages/membership/Membership";
 import Blog from "./pages/blog/Blog";
 import Children from "./pages/children/Children";
 import Navigation from "./components/nav/Navigation";
+import "./App.css";
 
 const App = () => {
   return (
