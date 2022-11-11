@@ -6,7 +6,7 @@ import { FaFacebook, FaInstagram, FaLinkedin } from "react-icons/fa";
 
 const Social = () => {
   return (
-    <div className="socialMedia">
+    <div className="socialmedia">
       {/* this component will return social media of the page */}
       <a href="https://www.facebook.com/dejene.daba.73/">
         <FaFacebook className="socialMedia__icon" />
