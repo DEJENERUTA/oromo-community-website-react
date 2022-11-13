@@ -7,6 +7,7 @@ import Membership from "./pages/membership/Membership";
 import Blog from "./pages/blog/Blog";
 import Children from "./pages/children/Children";
 import Navigation from "./components/nav/Navigation";
+import Footer from "./components/footer/Footer";
 import "./App.css";
 
 const App = () => {
@@ -22,6 +23,8 @@ const App = () => {
         <Route path="/blog" element={<Blog />} />
         <Route path="/children" element={<Children />} />
       </Routes>
+
+      <Footer />
     </div>
   );
 };
