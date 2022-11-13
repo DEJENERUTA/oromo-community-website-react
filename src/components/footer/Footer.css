@@ -54,9 +54,11 @@
 }
 
 .footer-form {
-  color: #ffffff;
+  color: "#ffffff";
   background-color: #2a353f;
   width: 50%;
+  border-radius: 5px;
+  padding: 20px;
 }
 
 .send-message {
@@ -85,11 +87,6 @@ button[type="submit"] {
   cursor: pointer;
 }
 
-.footer-form {
-  border-radius: 5px;
-  padding: 20px;
-}
-
 .footer-flex {
   display: flex;
 }
@@ -100,7 +97,6 @@ button[type="submit"] {
 }
 
 textarea {
-  width: 300px;
   font-family: inherit;
   background-color: transparent;
   width: 100%;
