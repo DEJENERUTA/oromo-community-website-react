@@ -6,7 +6,7 @@
 }
 
 .footer-title {
-  font-size: 48px;
+  font-size: 24px;
 }
 
 .main-footer {
@@ -21,7 +21,6 @@
 
 .footer-info {
   width: 50%;
-  padding-left: 30px;
 }
 
 .footer-info-container {
@@ -29,10 +28,12 @@
   justify-content: center;
   align-items: center;
   gap: 2rem;
+  margin-top: 20px;
 }
 
 .footer-icons {
   color: green;
+  font-size: 2rem;
 }
 
 .adress-container {
@@ -56,6 +57,10 @@
   color: #ffffff;
   background-color: #2a353f;
   width: 50%;
+}
+
+.send-message {
+  font-size: 24px;
 }
 
 input[type="text"] {

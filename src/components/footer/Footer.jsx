@@ -7,16 +7,16 @@ import { BsFillTelephoneFill } from "react-icons/bs";
 const Footer = () => {
   return (
     <div className="footer">
-      <div class="main-footer">
-        <div class="footer-info">
-          <h4 class="footer-title">Contact</h4>
+      <div className="main-footer">
+        <div className="footer-info">
+          <h4 className="footer-title">Contact</h4>
           <p>
             If you have questions or would like to book an event,
             <br />
             you can get in touch with us in the following ways.
           </p>
-          <div class="adress-container">
-            <div class="footer-info-container">
+          <div className="adress-container">
+            <div className="footer-info-container">
               <div className="footer-icons">
                 <AiTwotoneEnvironment />
               </div>
@@ -26,8 +26,8 @@ const Footer = () => {
               </div>
             </div>
           </div>
-          <div class="adress-container">
-            <div class="footer-info-container">
+          <div className="adress-container">
+            <div className="footer-info-container">
               <div className="footer-icons">
                 <BsFillTelephoneFill />
               </div>
@@ -37,8 +37,8 @@ const Footer = () => {
               </div>
             </div>
           </div>
-          <div class="adress-container">
-            <div class="footer-info-container">
+          <div className="adress-container">
+            <div className="footer-info-container">
               <div className="footer-icons">
                 <BiEnvelope />
               </div>
@@ -49,10 +49,10 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <div class="footer-form">
+        <div className="footer-form">
           <div>
             <form action="thankyou.html" id="subscribeForm">
-              <h4 class="send-message">Send us a message</h4>
+              <h4 className="send-message">Send us a message</h4>
               <input
                 type="text"
                 name="name"
@@ -68,7 +68,6 @@ const Footer = () => {
                 placeholder="write your message here..."
               ></textarea>
               <button type="submit" id="submit">
-                <i class="fas fa-envelope"></i>
                 Send a message
               </button>
               <p id="message">&nbsp;</p>
